@@ -1,0 +1,111 @@
+
+        <svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+            
+        <style>
+            :root { 
+        --bg-color: #0f1914;
+        --text-title: #aaccbb;
+        --text-legend: #e0e0e0;
+        --color-0: #66bb6a; --color-1: #26a69a; --color-2: #d4e157; --color-3: #ffa726; --color-4: #8d6e63; --color-5: #78909c;
+     }
+            text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+            .bg { fill: var(--bg-color); }
+            .title { fill: var(--text-title); font-weight: bold; font-size: 18px; }
+            .legend-text { fill: var(--text-legend); font-size: 14px; }
+            .legend-percent { fill: var(--text-legend); opacity: 0.7; font-size: 12px; }
+            .decoration { fill: var(--text-title); opacity: 0.1; }
+        </style>
+    
+            <rect width="100%" height="100%" class="bg" rx="10"/>
+            
+            <!-- Decorations -->
+            
+        <circle cx="30" cy="180" r="4" class="decoration" />
+        <circle cx="380" cy="30" r="6" class="decoration" />
+        <path d="M 50 160 L 52 165 L 58 165 L 53 169 L 55 175 L 50 171 L 45 175 L 47 169 L 42 165 L 48 165 Z" class="decoration" transform="rotate(-15 50 160)"/>
+        <path d="M 350 180 q 5 -5 10 0 q 5 -5 10 0 q -10 10 -20 0" class="decoration" fill="none" stroke="currentColor" stroke-width="2" />
+    
+
+            <text x="20" y="30" class="title">✨ Top Languages by Repo</text>
+            <g>
+            <path d="
+                M 280 30
+                A 70 70 0 0 1 349.6165326757791 107.31699242873574
+                L 319.78087581473096 104.18113853070614
+                A 40 40 0 0 0 280 60
+                Z
+            " fill="var(--color-0)" stroke="var(--bg-color)" stroke-width="2"/>
+        
+            <path d="
+                M 349.6165326757791 107.31699242873574
+                A 70 70 0 0 1 294.5538183572432 168.47033205136637
+                L 288.3164676327104 139.12590402935223
+                A 40 40 0 0 0 319.78087581473096 104.18113853070614
+                Z
+            " fill="var(--color-1)" stroke="var(--bg-color)" stroke-width="2"/>
+        
+            <path d="
+                M 294.5538183572432 168.47033205136637
+                A 70 70 0 0 1 238.85503233952687 156.63118960624632
+                L 256.4885899083011 132.3606797749979
+                A 40 40 0 0 0 288.3164676327104 139.12590402935223
+                Z
+            " fill="var(--color-2)" stroke="var(--bg-color)" stroke-width="2"/>
+        
+            <path d="
+                M 238.85503233952687 156.63118960624632
+                A 70 70 0 0 1 210.38346732422087 107.31699242873576
+                L 240.21912418526907 104.18113853070615
+                A 40 40 0 0 0 256.4885899083011 132.3606797749979
+                Z
+            " fill="var(--color-3)" stroke="var(--bg-color)" stroke-width="2"/>
+        
+            <path d="
+                M 210.38346732422087 107.31699242873576
+                A 70 70 0 0 1 227.97986221658238 53.16085755487995
+                L 250.2742069809042 73.23477574564569
+                A 40 40 0 0 0 240.21912418526907 104.18113853070615
+                Z
+            " fill="var(--color-4)" stroke="var(--bg-color)" stroke-width="2"/>
+        
+            <path d="
+                M 227.97986221658238 53.16085755487995
+                A 70 70 0 0 1 280 30
+                L 280 60
+                A 40 40 0 0 0 250.2742069809042 73.23477574564569
+                Z
+            " fill="var(--color-5)" stroke="var(--bg-color)" stroke-width="2"/>
+        </g>
+            <g>
+            <rect x="20" y="50" width="12" height="12" fill="var(--color-0)" rx="2"/>
+            <text x="40" y="60" class="legend-text">
+                Ruby <tspan class="legend-percent">(26.7%)</tspan>
+            </text>
+        
+            <rect x="20" y="75" width="12" height="12" fill="var(--color-1)" rx="2"/>
+            <text x="40" y="85" class="legend-text">
+                JavaScript <tspan class="legend-percent">(20.0%)</tspan>
+            </text>
+        
+            <rect x="20" y="100" width="12" height="12" fill="var(--color-2)" rx="2"/>
+            <text x="40" y="110" class="legend-text">
+                TypeScript <tspan class="legend-percent">(13.3%)</tspan>
+            </text>
+        
+            <rect x="20" y="125" width="12" height="12" fill="var(--color-3)" rx="2"/>
+            <text x="40" y="135" class="legend-text">
+                Python <tspan class="legend-percent">(13.3%)</tspan>
+            </text>
+        
+            <rect x="20" y="150" width="12" height="12" fill="var(--color-4)" rx="2"/>
+            <text x="40" y="160" class="legend-text">
+                PHP <tspan class="legend-percent">(13.3%)</tspan>
+            </text>
+        
+            <rect x="20" y="175" width="12" height="12" fill="var(--color-5)" rx="2"/>
+            <text x="40" y="185" class="legend-text">
+                Others <tspan class="legend-percent">(13.3%)</tspan>
+            </text>
+        </g>
+        </svg>
+    

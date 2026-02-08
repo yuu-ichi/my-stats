@@ -1,0 +1,15 @@
+{
+  "name": "my-stats",
+  "version": "1.0.0",
+  "description": "自分用のGitHub stats",
+  "main": "generate-stats.js",
+  "scripts": {
+    "dev": "THEME_MODE=dark MOCK_DATA=true node generate-stats.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
