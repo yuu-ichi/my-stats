@@ -26,7 +26,7 @@ npm install
 
 ```bash
 export GITHUB_USER="あなたのGitHubID"
-export GITHUB_TOKEN="トークン"
+export GITHUB_TOKEN="あなたのPersonal Access Token"
 ```
 
 ### 2. 実行（開発モード）
@@ -49,3 +49,8 @@ npm run dev
 # ダークモードでモックデータ実行
 THEME_MODE=dark MOCK_DATA=true node generate-stats.js
 ```
+
+### GitHub Actions
+
+secrets.GITHUB_TOKEN が自動的に利用されるため、
+追加で Personal Access Token を発行する必要はありません。
